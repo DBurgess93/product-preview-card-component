@@ -32,3 +32,42 @@
   width: 300px;
   /* overflow: hidden; */
 }
+
+.item-name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  letter-spacing: 3px;
+  opacity: 40%;
+}
+
+.item-title {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 38px;
+}
+
+.description {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  letter-spacing: 3px;
+  opacity: 40%;
+  font-size: 14px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.discounted-price {
+  color: hsl(158, 36%, 37%);
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.original-price {
+  text-decoration: line-through;
+  opacity: 40%;
+}
